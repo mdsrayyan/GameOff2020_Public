@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2476eca3495270a4bbbbe7112a6d2030, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  movementVelocity: 12
+  acceleration: 25
+  timeToMaxSpeed: 0.2
+  gravityScale: 1.5
+  jumpVelocity: 9.5
+  numberOfJumps: 1
+  coyoteTime: 0
+  variableJumpHeightMultiplier: 0.5
+  reverseMultiplier: 0.3
+  onSpotMultiplier: 0.6
+  coolDownTime: 0.2
+  gravityMultiplier: 1.2
+  wallSlideVelocity: 4
+  wallSlideDeceleration: 12
+  wallSlideExitVelocity: 5
+  maxSlideDownVelocity: 15
+  stickTime: 0.5
+  wallClimbvelocity: 3
+  wallJumpVelocity: 15
+  wallJumpTime: 0.1
+  wallJumpAngle: {x: 1, y: 1}
+  wallJumpAngleSameDir: {x: 1, y: 2.5}
+  wallJumpVelocitySameDir: 11
+  groundCheckRadius: 0.2
+  wallCheckDistance: 0.5
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
+  maxVelocity: 10
+  flipGravityTime: 5
+  gravityCoolDown: 2
+  gravityVelocity: 8
